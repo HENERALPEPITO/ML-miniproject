@@ -15,15 +15,15 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
 Warning--entry type for "bosano2023who" isn't style-file defined
---line 10 of file references.bib
+--line 19 of file references.bib
 Warning--entry type for "lena2024" isn't style-file defined
---line 18 of file references.bib
+--line 35 of file references.bib
 Warning--entry type for "WHO2024" isn't style-file defined
---line 26 of file references.bib
+--line 51 of file references.bib
 Warning--entry type for "WHO2023" isn't style-file defined
---line 34 of file references.bib
+--line 67 of file references.bib
 Warning--entry type for "PNA2024" isn't style-file defined
---line 43 of file references.bib
+--line 85 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 8 entries,
             6951 wiz_defined-function locations,
