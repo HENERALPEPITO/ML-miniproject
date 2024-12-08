@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: references.bib
+Warning--entry type for "bosano2023who" isn't style-file defined
+--line 10 of file references.bib
+Warning--entry type for "lena2024" isn't style-file defined
+--line 18 of file references.bib
+Warning--entry type for "WHO2024" isn't style-file defined
+--line 26 of file references.bib
+Warning--entry type for "WHO2023" isn't style-file defined
+--line 34 of file references.bib
+Warning--entry type for "PNA2024" isn't style-file defined
+--line 43 of file references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 8 entries,
+            6951 wiz_defined-function locations,
+            1313 strings with 12369 characters,
+and the built_in function-call counts, 16916 in all, are:
+= -- 2230
+> -- 131
+< -- 768
++ -- 812
+- -- 24
+* -- 1006
+:= -- 2928
+add.period$ -- 29
+call.type$ -- 8
+change.case$ -- 136
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 429
+empty$ -- 617
+format.name$ -- 244
+if$ -- 3245
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 0
+newline$ -- 197
+num.names$ -- 64
+pop$ -- 207
+preamble$ -- 1
+purify$ -- 32
+quote$ -- 0
+skip$ -- 1330
+stack$ -- 0
+substring$ -- 875
+swap$ -- 224
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1000
+warning$ -- 0
+while$ -- 82
+width$ -- 0
+write$ -- 236
+(There were 5 warnings)
