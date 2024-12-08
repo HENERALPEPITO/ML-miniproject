@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  8 DEC 2024 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  8 DEC 2024 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -275,9 +275,6 @@ Package pdftex.def Info: image/Linear Regression plot.png  used on input line 1
 99.
 (pdftex.def)             Requested size: 345.0pt x 171.19179pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 
 [9 <./image/Ann plot.png>]
 
@@ -371,7 +368,7 @@ w Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
 /amsfonts/cm/cmr9.pfb><C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Kurt Matthew Amodia/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (13 pages, 669650 bytes).
+Output written on main.pdf (13 pages, 669706 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
