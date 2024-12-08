@@ -147,7 +147,7 @@ The performance of each model was compared to determine the most accurate foreca
 \end{table}
 
 \subsubsection{KNN Model}
-The K-Nearest Neighbors (KNN) model shows a Mean Absolute Error (MAE) of 25.7855, which means the average absolute difference between actual and predicted cases is about 25.79. The Mean Squared Error (MSE) of 2344.9568 indicates that squared errors are high, reflecting some large discrepancies between the actual and predicted cases. The Root Mean Squared Error (RMSE) of 48.4247 is also quite large, showing that there are some significant errors in the predictions. This suggests that KNN's model could be struggling with larger deviations, making it less robust compared to others.
+The K-Nearest Neighbors (KNN) model achieved a Mean Absolute Error (MAE) of 25.7855, indicating that the average prediction deviates from the actual dengue cases by roughly 26 cases. The Mean Squared Error (MSE) of 2344.9568 suggests that the squared differences between actual and predicted cases are significantly large, primarily due to extreme deviations. The Root Mean Squared Error (RMSE) of 48.4247 further confirms this, reflecting considerable variability in the errors. This suggests that KNN's model could be struggling with larger deviations, making it less robust compared to others.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1\linewidth]{image/knn plot.png}
@@ -155,10 +155,10 @@ The K-Nearest Neighbors (KNN) model shows a Mean Absolute Error (MAE) of 25.7855
     \label{fig:knn}
 \end{figure}
 
-In Figure \ref{fig:knn}, the predicted values (red line) generally follow the trend of the actual cases (blue line) in some periods but fail to capture the magnitude during spikes accurately. The model struggles to predict extreme increases and decreases in dengue cases, resulting in significant underestimation or overestimation during peaks. While it captures overall patterns, the high variability in dengue cases poses a challenge for this model.
+In Figure \ref{fig:knn}, the predicted values (red line) generally follow the trend of the actual cases (blue line) in some periods but fail to capture the magnitude during spikes accurately. The model struggles to predict extreme increases and decreases in dengue cases, resulting in significant underestimation or overestimation during peaks. For instance, during periods of rapid increase or decrease, the model fails to reflect the true magnitude of changes. This limitation is likely due to KNN’s sensitivity to the nearest neighbors, which may not represent rare or extreme patterns effectively. While it captures overall patterns, the high variability in dengue cases poses a challenge for this model.
 
 \subsubsection{SVR Model}
-The SVR performance Mean Absolute Error (MAE) of 15.3458 suggests the model's predictions are off by an average of 15.35 cases, which is moderate, indicating it’s reasonably accurate but not as good as ANN. The Mean Squared Error (MSE) of 898.0991 further emphasizes the presence of significant variability, as it magnifies larger errors. Similarly, the Root Mean Squared Error (RMSE) of 29.9683 indicates considerable prediction discrepancies, suggesting that while it performs well in general, it could have slightly larger errors.
+The Support Vector Regression (SVR) model shows an MAE of 15.3458, implying moderately accurate predictions with an average error of 15.35 cases. The MSE of 898.0991 and the RMSE of 29.9683 show improvement over KNN, with smaller squared errors and deviations.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1\linewidth]{image/svr plot.png}
@@ -177,7 +177,7 @@ The ANN model has the lowest MAE, indicating that it generally makes more accura
     \label{fig:ann}
 \end{figure}
 
-In Figure \ref{fig:ann}. the predicted values (red line) generally align with the trends of the actual values (blue line) in low to moderate case ranges. However, it still struggled with extreme spikes, leading to some underestimation or overshooting. Its ability to model nonlinear relationships gave it an edge over simpler methods.
+In Figure \ref{fig:ann}. the ANN model aligns closely with the actual dengue case trends, particularly in low to moderate ranges. However, during extreme spikes, the model either underestimates or overshoots the actual values. This reflects the ANN’s strength in capturing nonlinear patterns due to its architecture, though it still faces challenges in modeling abrupt changes due to limited training data on such rare events.
 
 \subsubsection{XGBoost Regressor Model}
 The XGBoost model achieved an MAE of 18.8749, showing good accuracy in minimizing the average prediction errors. The MSE is 759.4290, indicating moderate variability in predictions. The RMSE of 27.5577 reflects that while the model performs well overall, it struggles slightly with outliers or extreme spikes in dengue cases.
@@ -189,10 +189,10 @@ The XGBoost model achieved an MAE of 18.8749, showing good accuracy in minimizin
     \label{fig:xgb}
 \end{figure}
 
-In Figure \ref{fig:xgb}. The XGBoost model effectively captures the overall trend of dengue case fluctuations. The model performs reliably in predicting low to moderate dengue cases, with a reasonable alignment between actual and predicted values.dengue cases.
+In Figure \ref{fig:xgb}. The XGBoost model effectively captures the overall trend of dengue case fluctuations. The model performs reliably in predicting low to moderate dengue cases, with a reasonable alignment between actual and predicted values for dengue cases. There is a slight overshooting however for sudden spikes. The ensemble-based nature of XGBoost provides robustness and good generalization, though fine-tuning could potentially improve performance for extreme cases.
 
 \subsubsection{Linear Regression Model}
-The Linear Regression model achieved a Mean Absolute Error (MAE) of 16.3724, indicating a low average error and a high degree of accuracy. The Mean Squared Error (MSE) of 874.2463 suggests limited variability in predictions, demonstrating the model's strong ability to generalize across data. Additionally, the Root Mean Squared Error (RMSE) of 29.5676 highlights the model's robust performance, even when larger errors are penalized more significantly.
+The Linear Regression model achieved a Mean Absolute Error (MAE) of 16.3724, indicating a low average error and a high degree of accuracy. The Mean Squared Error (MSE) of 874.2463 suggests limited variability in predictions, demonstrating the model's strong ability to generalize across data. Additionally, the Root Mean Squared Error (RMSE) of 29.5676 highlights the model's robust performance, even when larger errors are penalized more significantly.\\
 
 \begin{figure}[h!]
     \centering
@@ -201,7 +201,7 @@ The Linear Regression model achieved a Mean Absolute Error (MAE) of 16.3724, ind
     \label{fig:lr}
 \end{figure}
 
-Figure \ref{fig:lr}. shows that the predicted values (red) closely follow the trends of the actual values (blue), showcasing Linear Regression's capability to effectively capture patterns in low and moderate case ranges. Although slight deviations occur in high-peak regions, the model remains consistent and aligns well with the actual data. The smooth trend tracking reflects the benefits of preprocessing, such as moving average techniques, which reduce noise and emphasize underlying patterns in the data.
+Figure \ref{fig:lr}. shows that the predicted values (red) closely follow the trends of the actual values (blue), showcasing Linear Regression's capability to effectively capture patterns in low and moderate case ranges. Although slight deviations occur in high-peak regions, the model remains consistent and aligns well with the actual data. We have to keep in mind thought that the preprocessing techniques, such as moving averages, have helped reduce noise, allowing the model to focus on broader patterns effectively.
 
 \subsubsection{Random Forest Model}
 The Random Forest model achieved an MAE of 16.7267, indicating that, on average, its predictions are off by about 17 dengue cases. The MAE for Random Forest is relatively similar to that of linear regression, indicating moderate prediction accuracy, but still not as good as ANN. The MSE for Random Forest is the lowest, which indicates that its predictions are relatively close to the actual values, with fewer extreme errors. Random Forest has a lower RMSE than any other model, showing fewer large errors compared to the other models.
@@ -214,7 +214,7 @@ The Random Forest model achieved an MAE of 16.7267, indicating that, on average,
     \label{fig:rf}
 \end{figure}
 
-In Figure \ref{fig:rf}. The plot illustrates that the Random Forest model effectively captures overall trends in dengue cases, particularly in the low to moderate ranges. However, it encounters challenges in accurately predicting peak values, often resulting in underestimations or overestimations. This indicates the model’s difficulty in handling high variability, leading to noticeable errors during periods of extreme fluctuations.
+In Figure \ref{fig:rf}. The plot illustrates that the Random Forest model effectively captures overall trends in dengue cases, particularly in the low to moderate ranges. However, it encounters challenges in accurately predicting peak values, often resulting in underestimations or overestimations. This indicates the model’s difficulty in handling high variability, leading to noticeable errors during periods of extreme fluctuations.\pagebreak
 
 \begin{figure}[h!]
     \centering
