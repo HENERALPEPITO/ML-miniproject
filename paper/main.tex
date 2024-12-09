@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[runningheads]{llncs}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{apacite}  
@@ -11,17 +11,23 @@
   \textbf{\textit{Keywords---}} #1
 }
 
-\title{\textbf{Evaluating KNN, SVR, ANN, XGBoost Regressor, Linear Regression, and Random Forest Models for Dengue Case Prediction: A Comparative Study}}
-\author{
-    Kurt Matthew Amodia \and 
-    Glen Andrew Bulaong \and 
-    Carl Benedict Elipan \and 
-    John Hamir Karim
-}
-\date{}
-
 \begin{document}
-\maketitle
+\title{Evaluating KNN, SVR, ANN, XGBoost Regressor, Linear Regression, and Random Forest Models for Dengue Case Prediction: A Comparative Study}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Kurt Matthew Amodia, Glen Andrew Bulaong, Carl Benedict Elipan, John Hamir Karim, and Ara Abigail Ambita}
+%
+\authorrunning{K. Amodia et al.}
+\titlerunning{Evaluating ML Models for Dengue Case Prediction}
+
+\institute{Division of Physical Sciences and Mathematics\\
+	University of the Philippines Visayas\\
+	Miagao, Iloilo, Philippines\\
+\email{\{kaamodia, gcbulaong, clelipan, jckarim\}@up.edu.ph}}
+\maketitle  
 
 \begin{abstract}
 Dengue fever remains a pressing public health challenge in the Philippines, with cases rising significantly in recent years. In Iloilo City, the Iloilo Provincial Health Office reported a sharp increase in dengue cases, from 1,095 cases and one fatality in 2022 to 4,585 cases and 10 fatalities as of August 10, 2023—a 319\% year-on-year surge. To address this, machine learning algorithms offer promising tools for predicting dengue outbreaks and informing timely interventions. This study analyzes dengue data from the Iloilo Provincial Health Office and climate data from online sources, using six machine learning algorithms: K-Nearest Neighbors (KNN), Linear Regression, Support Vector Regression (SVR), Random Forest, Artificial Neural Network (ANN), and XGBoost Regression. Running these algorithms on the dataset through the Scikit-learn Python library, results indicate that Random Forest performed best for dengue prediction, with an RMSE of 25.4081 and MAE of 16.7267, while KNN emerged as the least effective, with an RMSE of 48.4247 and MAE of 25.7855. These findings underscore the potential of advanced machine learning models in improving dengue forecasting and enhancing public health responses in Iloilo City.
@@ -39,7 +45,7 @@ Governor Arthur Defensor Jr. confirmed that the province has reached the dengue 
 
 This study aims to evaluate and compare six models—K-Nearest Neighbors (KNN), Linear Regression, Support Vector Regressor (SVR), Random Forest, Artificial Neural Network (ANN), and XGBoost Regressor  —in predicting dengue cases, with a focus on applicability in Iloilo City. Accurate prediction models are valuable in this context, as they provide health agencies with insights into expected case numbers, supporting proactive measures for outbreak control and resource allocation.
 
-Specifically, this study aims to:
+Specifically, this study\footnote{Github Repository: \url{https://github.com/HENERALPEPITO/ML-miniproject.git}} aims to:
 \begin{enumerate}
     \item Gather dengue data from the Iloilo Provincial Health Office and climate data from online sources. Combine these data into a unified dataset to facilitate comprehensive dengue case forecasting.
     \item Train and evaluate model metrics, including K-Nearest Neighbors (KNN), Linear Regression, Support Vector Regressor (SVR), Random Forest, Artificial Neural Network (ANN), and XGBoost Regressor for predicting dengue cases.
@@ -80,7 +86,8 @@ The historical dengue case dataset used in this study was obtained from the Huma
 \end{itemize} 
 
 \subsubsection{Data Integration and Preprocessing}
-The dengue case data was integrated with the weather data to create a comprehensive dataset, aligning the data based on corresponding timeframes. The dataset undergoed a cleaning process to address any missing values, outliers, and inconsistencies to ensure its accuracy and reliability. To ensure that all features and the target variable were on the same scale, a MinMaxScaler was applied to normalize both the input features (rainfall, temperature, humidity) and the target variable (dengue cases). To enhance the quality of the data and minimize the impact of random short-term fluctuations, moving averages was applied to selected columns, including rainfall, humidity, and temperature. This approach will help to filter out 'noise' and provide a clearer representation of the underlying trends.
+The dengue case data was integrated with the weather data to create a comprehensive dataset\footnote{For reference of the complete dataset:\\ 
+	\url{https://github.com/HENERALPEPITO/ML-miniproject/tree/main/datasets}}, aligning the data based on corresponding timeframes. The dataset undergoed a cleaning process to address any missing values, outliers, and inconsistencies to ensure its accuracy and reliability. To ensure that all features and the target variable were on the same scale, a MinMaxScaler was applied to normalize both the input features (rainfall, temperature, humidity) and the target variable (dengue cases). To enhance the quality of the data and minimize the impact of random short-term fluctuations, moving averages was applied to selected columns, including rainfall, humidity, and temperature. This approach will help to filter out 'noise' and provide a clearer representation of the underlying trends.
 
 \subsection{Model Training}
 The following models were selected and trained using the Scikit-learn Python library to forecast dengue cases based on historical weather and case data. The dataset will be split into training and testing sets, ensuring temporal continuity is maintained to avoid data leakage. All models are grid-searched in each specific hyperparameter, and each model was fine-tuned for optimal performance:
