@@ -97,6 +97,12 @@ The number of neighbors (k) was set to 7, which was selected after experimentati
 \end{itemize}
 
 \subsubsection{Artificial Neural Network}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\linewidth]{image/ANN diagram.png}
+	\caption{ANN Flow Diagram}
+	\label{fig:annflow}
+\end{figure}
 The model was trained with a learning rate of 0.001, utilizing the Adam optimizer to ensure efficient training. The training process was set to run for 200 epochs, with a batch size of 16, meaning 16 training samples were processed per iteration. To capture complex patterns without overfitting, a hidden layer consisting of 64 neurons with a ReLU activation function was chosen. The architecture followed a Sequential Neural Network design, incorporating an input layer, one hidden layer, and an output layer. Additionally, early stopping was implemented to prevent overfitting by monitoring the validation performance during training.
 
 \subsubsection{XGBoost Regressor Model}
