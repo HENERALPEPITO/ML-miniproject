@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  9 DEC 2024 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  10 DEC 2024 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -375,24 +375,24 @@ Package pdftex.def Info: image/ANN diagram.png  used on input line 109.
 [5 <./image/ANN diagram.png>]
 
 [6]
-<image/knn plot.png, id=35, 859.2903pt x 426.393pt>
+<image/knn plot.png, id=35, 1065.2598pt x 498.663pt>
 File: image/knn plot.png Graphic file (type png)
 <use image/knn plot.png>
 Package pdftex.def Info: image/knn plot.png  used on input line 166.
-(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
+(pdftex.def)             Requested size: 347.12354pt x 162.48965pt.
 
 
 [7 <./image/knn plot.png>]
-<image/svr plot.png, id=41, 859.2903pt x 426.393pt>
+<image/svr plot.png, id=41, 1055.142pt x 498.663pt>
 File: image/svr plot.png Graphic file (type png)
 <use image/svr plot.png>
 Package pdftex.def Info: image/svr plot.png  used on input line 177.
-(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
-<image/Ann plot.png, id=42, 859.2903pt x 426.393pt>
+(pdftex.def)             Requested size: 347.12354pt x 164.04948pt.
+<image/Ann plot.png, id=42, 1055.142pt x 498.663pt>
 File: image/Ann plot.png Graphic file (type png)
 <use image/Ann plot.png>
 Package pdftex.def Info: image/Ann plot.png  used on input line 188.
-(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
+(pdftex.def)             Requested size: 347.12354pt x 164.04948pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -405,58 +405,52 @@ Overfull \hbox (3.4764pt too wide) in paragraph at lines 196--197
 el achieved an MAE of 18.8749,
  []
 
-<image/XGBoost plot.png, id=47, 859.2903pt x 426.393pt>
+<image/XGBoost plot.png, id=47, 1055.142pt x 498.663pt>
 File: image/XGBoost plot.png Graphic file (type png)
 <use image/XGBoost plot.png>
 Package pdftex.def Info: image/XGBoost plot.png  used on input line 200.
-(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(pdftex.def)             Requested size: 347.12354pt x 164.04948pt.
 
 
+[9 <./image/Ann plot.png> <./image/XGBoost plot.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
-<image/Linear Regression plot.png, id=48, 859.2903pt x 426.393pt>
+<image/Linear Regression plot.png, id=53, 1055.142pt x 498.663pt>
 File: image/Linear Regression plot.png Graphic file (type png)
 <use image/Linear Regression plot.png>
 Package pdftex.def Info: image/Linear Regression plot.png  used on input line 2
 12.
-(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(pdftex.def)             Requested size: 347.12354pt x 164.04948pt.
 
 
-
-[9 <./image/Ann plot.png>]
-
-[10 <./image/XGBoost plot.png> <./image/Linear Regression plot.png>]
-<image/Random Forest plot.png, id=58, 859.2903pt x 426.393pt>
+[10 <./image/Linear Regression plot.png>]
+<image/Random Forest plot.png, id=58, 1058.7555pt x 498.663pt>
 File: image/Random Forest plot.png Graphic file (type png)
 <use image/Random Forest plot.png>
 Package pdftex.def Info: image/Random Forest plot.png  used on input line 225.
-(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
+(pdftex.def)             Requested size: 347.12354pt x 163.48642pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [11 <./image/Random Forest plot.png>]
-<image/All model plot.png, id=63, 1076.1003pt x 570.933pt>
+<image/All model plot.png, id=63, 1409.265pt x 714.7503pt>
 File: image/All model plot.png Graphic file (type png)
 <use image/All model plot.png>
 Package pdftex.def Info: image/All model plot.png  used on input line 234.
-(pdftex.def)             Requested size: 347.12354pt x 184.16585pt.
+(pdftex.def)             Requested size: 347.12354pt x 176.04784pt.
 
-Overfull \hbox (8.59929pt too wide) in paragraph at lines 244--247
+Overfull \hbox (8.59929pt too wide) in paragraph at lines 246--249
 \OT1/cmr/m/n/10 which are bet-ter in-di-ca-tors of over-all pre-dic-tive per-fo
 r-mance, es-pe-cially for datasets
  []
 
-(main.bbl
 
-[12 <./image/All model plot.png>]
+
+[12 <./image/All model plot.png>] (main.bbl
 Underfull \hbox (badness 2460) in paragraph at lines 14--27
 \OT1/cmr/m/it/10 cific.  \OT1/cmr/m/n/10 Re-trieved Use the date of ac-cess, fr
 om https://news.abs-
@@ -473,9 +467,11 @@ Underfull \hbox (badness 5119) in paragraph at lines 147--159
   \OT1/cmr/m/n/10 Re-trieved Use the
  []
 
-)
 
-[13] (main.aux)
+
+[13])
+
+[14] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -492,7 +488,7 @@ Here is how much of TeX's memory you used:
  25924 multiletter control sequences out of 15000+600000
  563496 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,65p,1261b,267s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,9n,65p,1261b,290s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb><C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Kurt Matthew Amodia/A
@@ -508,9 +504,9 @@ eX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Kurt Matthew Amodia/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Ku
 rt Matthew Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt9.pfb>
-Output written on main.pdf (13 pages, 712977 bytes).
+Output written on main.pdf (14 pages, 913240 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 122 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
