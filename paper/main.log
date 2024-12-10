@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  9 DEC 2024 18:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  9 DEC 2024 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,6 +6,11 @@ entering extended mode
 (main.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
+
+(C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/llncs\lln
+cs.cls
+Document Class: llncs 2024/10/21 v2.25 
+ LaTeX document class for Lecture Notes in Computer Science
 
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/base\arti
 cle.cls
@@ -27,10 +32,137 @@ File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
 )
+(C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/tools\mul
+ticol.sty
+Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
+\c@tracingmulticols=\count268
+\mult@box=\box52
+\multicol@leftmargin=\dimen142
+\c@unbalance=\count269
+\c@collectmore=\count270
+\doublecol@number=\count271
+\multicoltolerance=\count272
+\multicolpretolerance=\count273
+\full@width=\dimen143
+\page@free=\dimen144
+\premulticols=\dimen145
+\postmulticols=\dimen146
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box53
+\last@line=\box54
+\mc@boxedresult=\box55
+\maxbalancingoverflow=\dimen147
+\mult@rightbox=\box56
+\mult@grightbox=\box57
+\mult@firstbox=\box58
+\mult@gfirstbox=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count274
+\c@columnbadness=\count275
+\c@finalcolumnbadness=\count276
+\last@try=\dimen148
+\multicolovershoot=\dimen149
+\multicolundershoot=\dimen150
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count277
+)
+(C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\
+aliascnt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+)
+\c@chapter=\count278
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 379.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 382.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 383.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 384.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 385.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 386.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 387.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 388.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 389.
+LaTeX Info: Redefining \vec on input line 394.
+\tocchpnum=\dimen151
+\tocsecnum=\dimen152
+\tocsectotal=\dimen153
+\tocsubsecnum=\dimen154
+\tocsubsectotal=\dimen155
+\tocsubsubsecnum=\dimen156
+\tocsubsubsectotal=\dimen157
+\tocparanum=\dimen158
+\tocparatotal=\dimen159
+\tocsubparanum=\dimen160
+\@tempcntc=\count279
+\fnindent=\dimen161
+\c@@inst=\count280
+\c@@auth=\count281
+\c@auco=\count282
+\instindent=\dimen162
+\authrun=\box98
+\authorrunning=\toks17
+\tocauthor=\toks18
+\titrun=\box99
+\titlerunning=\toks19
+\toctitle=\toks20
+\c@theorem=\count283
+\c@case=\count284
+\c@conjecture=\count285
+\c@corollary=\count286
+\c@definition=\count287
+\c@example=\count288
+\c@exercise=\count289
+\c@lemma=\count290
+\c@note=\count291
+\c@problem=\count292
+\c@property=\count293
+\c@proposition=\count294
+\c@question=\count295
+\c@solution=\count296
+\c@remark=\count297
+\headlineindent=\dimen163
+)
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
 msmath.sty
 Package: amsmath 2024/05/23 v2.17q AMS math features
-\@mathmargin=\skip51
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 
@@ -41,63 +173,67 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
 msgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen142
+\@emptytoks=\toks21
+\ex@=\dimen164
 ))
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
 msbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen143
+\pmbraise@=\dimen165
 )
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\a
 msopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count268
+\inf@bad=\count298
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count269
-\leftroot@=\count270
+\uproot@=\count299
+\leftroot@=\count300
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count271
-\DOTSCASE@=\count272
+\classnum@=\count301
+\DOTSCASE@=\count302
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box100
+\strutbox@=\box101
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen144
+\big@size=\dimen166
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count273
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count303
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count274
+\c@MaxMatrixCols=\count304
 \dotsspace@=\muskip17
-\c@parentequation=\count275
-\dspbrk@lvl=\count276
-\tag@help=\toks18
-\row@=\count277
-\column@=\count278
-\maxfields@=\count279
-\andhelp@=\toks19
-\eqnshift@=\dimen145
-\alignsep@=\dimen146
-\tagshift@=\dimen147
-\tagwidth@=\dimen148
-\totwidth@=\dimen149
-\lineht@=\dimen150
-\@envbody=\toks20
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks21
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks22
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks23
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks24
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -108,7 +244,7 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
 keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks26
 )
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\
 graphics.sty
@@ -128,56 +264,56 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen151
-\Gin@req@width=\dimen152
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
 )
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/apacite\a
 pacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count280
-\bibleftmargin=\skip54
-\bibindent=\skip55
-\bibparsep=\skip56
-\bibitemsep=\skip57
-\biblabelsep=\skip58
+\c@BibCnt=\count310
+\bibleftmargin=\skip56
+\bibindent=\skip57
+\bibparsep=\skip58
+\bibitemsep=\skip59
+\biblabelsep=\skip60
 )
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend
 \l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count281
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count311
+\l__pdf_internal_box=\box102
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/context/base/mk
 ii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count282
-\scratchdimen=\dimen153
-\scratchbox=\box55
-\nofMPsegments=\count283
-\nofMParguments=\count284
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count285
-\MPscratchDim=\dimen154
-\MPnumerator=\count286
-\makeMPintoPDFobject=\count287
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count312
+\scratchdimen=\dimen175
+\scratchbox=\box103
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen176
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks28
 )
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-
 pkg\epstopdf-base.sty
@@ -189,7 +325,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@maskedRefs=\count288
+\c@maskedRefs=\count318
 
 (C:\Users\Kurt Matthew Amodia\AppData\Local\Programs\MiKTeX\tex/latex/apacite\e
 nglish.apc
@@ -197,6 +333,16 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
+30.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 30.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 30.
+
+
 
 [1
 
@@ -204,13 +350,13 @@ LaTeX Info: Redefining \BHBI on input line 130.
 ]
 
 [2]
-<image/Model Diagram.png, id=14, 686.565pt x 287.3937pt>
+<image/Model Diagram.png, id=18, 686.565pt x 287.3937pt>
 File: image/Model Diagram.png Graphic file (type png)
 <use image/Model Diagram.png>
-Package pdftex.def Info: image/Model Diagram.png  used on input line 61.
-(pdftex.def)             Requested size: 345.0pt x 144.41566pt.
+Package pdftex.def Info: image/Model Diagram.png  used on input line 67.
+(pdftex.def)             Requested size: 347.12354pt x 145.3015pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--74
+Underfull \hbox (badness 10000) in paragraph at lines 76--80
 
  []
 
@@ -219,34 +365,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--74
 [3 <./image/Model Diagram.png>]
 
 [4]
-<image/ANN diagram.png, id=24, 422.17725pt x 144.54pt>
+<image/ANN diagram.png, id=26, 422.17725pt x 144.54pt>
 File: image/ANN diagram.png Graphic file (type png)
 <use image/ANN diagram.png>
-Package pdftex.def Info: image/ANN diagram.png  used on input line 102.
-(pdftex.def)             Requested size: 345.0pt x 118.12215pt.
+Package pdftex.def Info: image/ANN diagram.png  used on input line 109.
+(pdftex.def)             Requested size: 347.12354pt x 118.84775pt.
 
 
 [5 <./image/ANN diagram.png>]
 
 [6]
-<image/knn plot.png, id=33, 859.2903pt x 426.393pt>
+<image/knn plot.png, id=35, 859.2903pt x 426.393pt>
 File: image/knn plot.png Graphic file (type png)
 <use image/knn plot.png>
-Package pdftex.def Info: image/knn plot.png  used on input line 159.
-(pdftex.def)             Requested size: 345.0pt x 171.19179pt.
+Package pdftex.def Info: image/knn plot.png  used on input line 166.
+(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
 
 
 [7 <./image/knn plot.png>]
-<image/svr plot.png, id=39, 859.2903pt x 426.393pt>
+<image/svr plot.png, id=41, 859.2903pt x 426.393pt>
 File: image/svr plot.png Graphic file (type png)
 <use image/svr plot.png>
-Package pdftex.def Info: image/svr plot.png  used on input line 170.
-(pdftex.def)             Requested size: 345.0pt x 171.19179pt.
-<image/Ann plot.png, id=40, 859.2903pt x 426.393pt>
+Package pdftex.def Info: image/svr plot.png  used on input line 177.
+(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
+<image/Ann plot.png, id=42, 859.2903pt x 426.393pt>
 File: image/Ann plot.png Graphic file (type png)
 <use image/Ann plot.png>
-Package pdftex.def Info: image/Ann plot.png  used on input line 181.
-(pdftex.def)             Requested size: 345.0pt x 171.19179pt.
+Package pdftex.def Info: image/Ann plot.png  used on input line 188.
+(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -254,95 +400,77 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [8 <./image/svr plot.png>]
-<image/XGBoost plot.png, id=45, 859.2903pt x 426.393pt>
+Overfull \hbox (3.4764pt too wide) in paragraph at lines 196--197
+ \OT1/cmr/bx/n/10 XG-Boost Re-gres-sor Model[] \OT1/cmr/m/n/10 The XG-Boost mod
+el achieved an MAE of 18.8749,
+ []
+
+<image/XGBoost plot.png, id=47, 859.2903pt x 426.393pt>
 File: image/XGBoost plot.png Graphic file (type png)
 <use image/XGBoost plot.png>
-Package pdftex.def Info: image/XGBoost plot.png  used on input line 193.
-(pdftex.def)             Requested size: 345.0pt x 171.19179pt.
-
+Package pdftex.def Info: image/XGBoost plot.png  used on input line 200.
+(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (0.58282pt too wide) in paragraph at lines 201--202
-\OT1/cmr/m/n/10 The Lin-ear Re-gres-sion model achieved a Mean Ab-so-lute Er-ro
-r (MAE) of 16.3724,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
-<image/Linear Regression plot.png, id=46, 859.2903pt x 426.393pt>
+<image/Linear Regression plot.png, id=48, 859.2903pt x 426.393pt>
 File: image/Linear Regression plot.png Graphic file (type png)
 <use image/Linear Regression plot.png>
 Package pdftex.def Info: image/Linear Regression plot.png  used on input line 2
-05.
-(pdftex.def)             Requested size: 345.0pt x 171.19179pt.
+12.
+(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 [9 <./image/Ann plot.png>]
 
 [10 <./image/XGBoost plot.png> <./image/Linear Regression plot.png>]
-<image/Random Forest plot.png, id=56, 859.2903pt x 426.393pt>
+<image/Random Forest plot.png, id=58, 859.2903pt x 426.393pt>
 File: image/Random Forest plot.png Graphic file (type png)
 <use image/Random Forest plot.png>
-Package pdftex.def Info: image/Random Forest plot.png  used on input line 218.
-(pdftex.def)             Requested size: 345.0pt x 171.19179pt.
+Package pdftex.def Info: image/Random Forest plot.png  used on input line 225.
+(pdftex.def)             Requested size: 347.12354pt x 172.24579pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [11 <./image/Random Forest plot.png>]
-<image/All model plot.png, id=61, 1076.1003pt x 570.933pt>
+<image/All model plot.png, id=63, 1076.1003pt x 570.933pt>
 File: image/All model plot.png Graphic file (type png)
 <use image/All model plot.png>
-Package pdftex.def Info: image/All model plot.png  used on input line 227.
-(pdftex.def)             Requested size: 345.0pt x 183.04204pt.
- (main.bbl
-Underfull \hbox (badness 8189) in paragraph at lines 14--27
-[]\OT1/cmr/m/n/10 Bosano, R.  (2023).  \OT1/cmr/m/it/10 Who: Ph most af-fected 
-by dengue in
+Package pdftex.def Info: image/All model plot.png  used on input line 234.
+(pdftex.def)             Requested size: 347.12354pt x 184.16585pt.
+
+Overfull \hbox (8.59929pt too wide) in paragraph at lines 244--247
+\OT1/cmr/m/n/10 which are bet-ter in-di-ca-tors of over-all pre-dic-tive per-fo
+r-mance, es-pe-cially for datasets
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--27
-\OT1/cmr/m/it/10 west-ern pa-cific.  \OT1/cmr/m/n/10 Re-trieved Use the date of
- ac-cess, from
- []
-
-
-Overfull \hbox (168.24577pt too wide) in paragraph at lines 14--27
-\OT1/cmtt/m/n/10 https://news.abs-cbn.com/spotlight/12/22/23/who-ph-most-affect
-ed-by-dengue-in-western-pacific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--27
-
- []
-
-
+(main.bbl
 
 [12 <./image/All model plot.png>]
-Overfull \hbox (47.49683pt too wide) in paragraph at lines 147--159
-\OT1/cmtt/m/n/10 https://www.who.int/emergencies/disease-outbreak-news/item/202
-3-DON498
+Underfull \hbox (badness 2460) in paragraph at lines 14--27
+\OT1/cmr/m/it/10 cific.  \OT1/cmr/m/n/10 Re-trieved Use the date of ac-cess, fr
+om https://news.abs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--159
-
+Underfull \hbox (badness 10000) in paragraph at lines 14--27
+\OT1/cmr/m/n/10 cbn.com/spotlight/12/22/23/who-ph-most-affected-by-dengue-in-
  []
 
 
-Overfull \hbox (63.24669pt too wide) in paragraph at lines 171--183
-\OT1/cmtt/m/n/10 https://www.who.int/news-room/fact-sheets/detail/dengue-and-se
-vere-dengue
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--183
-
+Underfull \hbox (badness 5119) in paragraph at lines 147--159
+[]\OT1/cmr/m/n/10 WHO.  (2023).  \OT1/cmr/m/it/10 Dengue - global sit-u-a-tion.
+  \OT1/cmr/m/n/10 Re-trieved Use the
  []
 
 )
@@ -352,31 +480,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--183
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 2596 strings out of 473899
- 40702 string characters out of 5719856
+ 3057 strings out of 473899
+ 47169 string characters out of 5719856
  1935960 words of memory out of 5000000
- 25471 multiletter control sequences out of 15000+600000
- 565574 words of font info for 62 fonts, out of 8000000 for 9000
+ 25924 multiletter control sequences out of 15000+600000
+ 563496 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,1261b,238s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Kurt Matthew Amodia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\tcrm1000.pk><C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Kurt Matthew Amodia/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/K
-urt Matthew Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmbx9.pfb><C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Kurt Matthew Amodia/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Kurt Matthe
-w Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
+ 57i,9n,65p,1261b,267s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb><C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Kurt Matthew Amodia/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users
+/Kurt Matthew Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbxti10.pfb><C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Kurt Matthew Amodia/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Kurt Matth
+ew Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
 ><C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmr9.pfb><C:/Users/Kurt Matthew Amodia/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Kurt Matthew Amodia/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (13 pages, 697526 bytes).
+eX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Kurt Matthew Amodia/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Ku
+rt Matthew Amodia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmtt9.pfb>
+Output written on main.pdf (13 pages, 712977 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
